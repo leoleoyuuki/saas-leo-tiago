@@ -30,7 +30,7 @@ export default function home() {
           <div>
             <Link
               href="/"
-              className="inline-flex items-center justify-center px-5 py-3 bg-transparent border border-[#6b3fa9] text-white rounded-lg shadow-lg hover:bg-[#773faa] focus:outline-none focus:ring-2 focus:ring-[#6b3fa9]"
+              className="botao inline-flex items-center justify-center px-7 py-4 bg-transparent border border-[#6b3fa9] text-white rounded-lg shadow-lg hover:bg-[#773faa]"
             >
               Quero Melhorar Meu FPS Ruim
             </Link>
