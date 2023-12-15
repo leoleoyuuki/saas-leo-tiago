@@ -17,8 +17,8 @@ export default function home() {
           <div className="flex justify-center">
             <iframe
               className=""
-              width="650"
-              height="365"
+              width="800"
+              height="449"
               src="https://www.youtube.com/embed/mHO09NyZb84?si=z789ED8aXexE2KWs"
               title="YouTube video player"
               frameborder="0"
