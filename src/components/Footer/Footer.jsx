@@ -3,7 +3,7 @@ import { FaDiscord } from "react-icons/fa";
 import { BsFillTelephoneFill } from "react-icons/bs";
 export default function Footer() {
   return (
-    <div className="w-full h-36 bg-[#6b3fa9] flex flex-col items-center justify-center gap-2 bg-gradient-to-t from-[#6b3fa9] to-[#000] p-4 ">
+    <div className="w-full h-36 bg-[#6b3fa9] flex flex-col items-center justify-center gap-2 bg-gradient-to-t from-[#6b3fa9] to-[#000] ">
       <h1 className="text-gray-300">
         2023 BoostSync - Todos os direitos reservados&copy;
       </h1>
