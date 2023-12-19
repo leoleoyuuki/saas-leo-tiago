@@ -10,7 +10,7 @@ export default function Header() {
       <header className="flex items-center justify-around h-28">
         <div className="logo">
           <h1 className="h1 font-bold text-3xl">
-            <Lg gradient={["to left", "#6b3fa9 ,#ffffff"]}>BoostSync</Lg>
+            <Lg gradient={["to left", "#6b3fa9, #6b3fa9 ,#000d0d"]}>BoostSync</Lg>
           </h1>
         </div>
         <nav>
