@@ -1,38 +1,42 @@
 import Link from "next/link";
-import React from "react";
-import { LinearGradient as Lg } from "react-text-gradients";
-import { FaDiscord } from "react-icons/fa";
-import { BsFillTelephoneFill } from "react-icons/bs";
+import Image from "next/image";
 
 export default function Header() {
   return (
-    <div>
-      <header className="flex items-center justify-around h-28">
+    <div className="bg-[#302C42]">
+      <header className=" flex justify-between w-[81%] m-auto h-[12rem] items-center">
         <div className="logo">
-          <h1 className="h1 font-bold text-3xl">
-            <Lg gradient={["to left", "#6b3fa9, #6b3fa9 ,#000d0d"]}>BoostSync</Lg>
-          </h1>
+          <Image
+            src="/img/logoboostsync.svg"
+            width={307}
+            height={0}
+            alt="logo BoostSync"
+          />
         </div>
-        <nav>
-          <ul className="text-[#6b3fa9] text-lg flex gap-10 [text-shadow:_3px_3px_8px_rgb(255_255_255_/_50%)]">
-            <li>
-              <Link
-                className="flex justify-center items-center gap-2 px-2 py-1"
-                href={"/"}
-              >
-                <BsFillTelephoneFill />
-                Contato
-              </Link>
-            </li>
 
-            <li>
-              <Link
-                className="flex justify-center items-center gap-2 border rounded-lg border-[#6b3fa9] px-2 py-1 hover:bg-[#6b3fa9] hover:text-white transition-all"
-                href={"/"}
-              >
-                <FaDiscord /> Discord
-              </Link>
-            </li>
+        <nav>
+          <ul className="flex w-auto beneficios text-white font-semibold text">
+            <li className="px-4">+estabilidade</li>
+            <li className="px-4">+fps</li>
+            <li className="px-4">-inputlag</li>
+          </ul>
+        </nav>
+
+        <nav className="">
+          <ul className="flex justify-between ">
+            <Link
+              href="discord.com"
+              className="flex items-center px-8 py-4 mr-8 text-xs text-white uppercase border-2 border-white rounded-full font-semibold"
+            >
+              CONTATE-NOS
+            </Link>
+
+            <Link
+              href="discord.com"
+              className="flex items-center uppercase text-[#343045] btn text-xs px-9 py-4 rounded-full font-semibold"
+            >
+              JOIN DISCORD
+            </Link>
           </ul>
         </nav>
       </header>

@@ -1,7 +1,12 @@
 import React from 'react'
 
-export default function page() {
+export default function 
+
+() {
   return (
-    <div>page</div>
+    <div>
+
+
+    </div>
   )
 }
