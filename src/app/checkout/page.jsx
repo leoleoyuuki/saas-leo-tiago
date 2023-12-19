@@ -3,6 +3,7 @@ import { useState } from "react";
 import { loadStripe } from "@stripe/stripe-js";
 
 
+
 import Image from "next/image";
 
 let stripePromise;
@@ -23,11 +24,14 @@ const Checkout = () => {
     quantity: 1,
   };
 
+
+  const successUrl = typeof window !== 'undefined' ? `${window.location.origin}/success` : '/success';
+  const cancelUrl = typeof window !== 'undefined' ? `${window.location.origin}/cancel` : '/cancel';
   const checkoutOptions = {
     lineItems: [item],
     mode: "payment",
-    successUrl: `${window.location.origin}/success`,
-    cancelUrl: `${window.location.origin}/cancel`,
+    successUrl: successUrl,
+    cancelUrl: cancelUrl,
   };
 
   const redirectToCheckout = async () => {
