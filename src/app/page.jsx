@@ -9,7 +9,7 @@ export default function home() {
     <div className="w-4/5 m-auto h-auto ">
       <div className="3/5 m-auto text-center flex flex-col justify-around h-[82vh]">
         <div className="texts">
-          <h1 className="text-[2.4rem] [text-shadow:_3px_3px_5px_rgb(255_255_255_/_60%)] font-bold">
+          <h1 className="text-[2.4rem] [text-shadow:_3px_3px_5px_rgb(255_255_255_/_60%)] font-semibold">
             Aumente o desempenho do seu pc
           </h1>
           <p className="[text-shadow:_3px_3px_5px_rgb(255_255_255_/_60%)] text-lg ">
@@ -19,16 +19,12 @@ export default function home() {
         </div>
         <div className="compra flex flex-col gap-10">
           <div className="flex justify-center ">
-            <iframe
-              className="rounded-md shadow-lg shadow-[#6b3fa9]"
-              width="800"
-              height="449"
-              src="https://www.youtube.com/embed/mHO09NyZb84?si=z789ED8aXexE2KWs"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
-            ></iframe>
+            <div className="boxes flex w-full h-5/6 justify-center gap-5">
+              <div className="rounded flex justify-center items-center p-7 w-1/6 shadow shadow-white">Mais FPS</div>
+              <div className="rounded flex justify-center items-center p-7 w-1/6 shadow shadow-white">Menos InputLag</div>
+              <div className="rounded flex justify-center items-center p-7 w-1/6 shadow shadow-white">Acabe com os drops</div>
+              <div className="rounded flex justify-center items-center p-7 w-1/6 shadow shadow-white">teste</div>
+            </div>
           </div>
 
           <div>
