@@ -66,9 +66,9 @@ export default function home() {
           <div className="flex items-center gap-5">
             <div>
               <h1>Introduzindo</h1>
-              <h2>BoostSync Optimizer</h2>
+              <p>BoostSync Optimizer</p>
             </div>
-            <FaArrowRightLong/>
+            <Image/>
           </div>
 
       </section>
