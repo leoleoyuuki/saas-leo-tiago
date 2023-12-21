@@ -2,16 +2,13 @@
 import { useState } from "react";
 import { loadStripe } from "@stripe/stripe-js";
 
-
-
 import Image from "next/image";
-import { env } from "../../../next.config";
 
 let stripePromise;
 
 const getStripe = () => {
   if (!stripePromise) {
-    stripePromise = loadStripe(process.env.REACT_APP_STRIPE_KEY);
+    stripePromise = loadStripe(process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY);
   }
 
   return stripePromise;
@@ -64,20 +61,21 @@ const Checkout = () => {
         height={300}
         alt="Product"
       />
-      <button
-        className="checkout-button"
-        onClick={redirectToCheckout}
-        disabled={isLoading}
-      >
-        <div className="grey-circle">
-          <div className="purple-circle">
-            <Image className="icon" src="/img/credit-card.svg" width={400} height={300} alt="credit-card-icon" />
+      
+        <button
+          className="checkout-button"
+          onClick={redirectToCheckout}
+          disabled={isLoading}
+        >
+          <div className="grey-circle">
+            <div className="purple-circle">
+              <Image className="icon" src="/img/credit-card.svg" width={400} height={300} alt="credit-card-icon" />
+            </div>
           </div>
-        </div>
-        <div className="text-container">
-          <p className="text">{isLoading ? "Loading..." : "Buy"}</p>
-        </div>
-      </button>
+          <div className="text-container">
+            <p className="text">{isLoading ? "Loading..." : "Buy"}</p>
+          </div>
+        </button>
     </div>
   );
 };
