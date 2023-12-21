@@ -27,14 +27,14 @@ export default function Header() {
         <nav className="">
           <ul className="flex justify-between ">
             <Link
-              href="discord.com"
+              href="https://discord.gg/ufEvyf5d"
               className="flex items-center px-8 py-4 mr-8 text-xs text-white uppercase border-2 border-white rounded-full font-semibold"
             >
               CONTATE-NOS
             </Link>
 
             <Link
-              href="discord.com"
+              href="https://discord.gg/ufEvyf5d"
               className="flex items-center uppercase text-[#343045] btn text-xs px-9 py-4 rounded-full font-semibold"
             >
               JOIN DISCORD

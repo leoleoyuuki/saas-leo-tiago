@@ -18,13 +18,13 @@ export default function Footer() {
               <Link href="/sobre">Sobre Nós</Link>
             </li>
             <li>
-              <Link href="/produtos">Produtos</Link>
+              <Link href="/checkout">Produtos</Link>
             </li>
             <li>
               <Link href="/blog">Blog</Link>
             </li>
             <li>
-              <Link href="/contato">Contato</Link>
+              <Link href="https://discord.gg/ufEvyf5d">Contato</Link>
             </li>
           </ul>
         </div>
