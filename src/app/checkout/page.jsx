@@ -38,7 +38,7 @@ export default function Checkout () {
                 e suporte incluídos.
               </p>
               <p className="text-[#c0b7e8] font-bold text-lg">R$15,00</p>
-              <Link href="https://buy.stripe.com/8wM7sYgrM1rRgDu5kp">
+              <Link href="https://buy.stripe.com/7sI8x25N86MbdridQW">
                 <p className="btn uppercase font-bold text-[#343045] btn text-xs px-8 py-2 rounded-full mt-4">
                   Comprar Agora
                 </p>
@@ -62,7 +62,7 @@ export default function Checkout () {
                 benefícios.
               </p>
               <p className="text-[#c0b7e8] font-bold text-lg">R$50,00</p>
-              <Link href="https://buy.stripe.com/3cscNi7VggmL0EwcMQ">
+              <Link href="https://buy.stripe.com/3cs14A1wS0nN3QI9AH">
                 <p className="btn uppercase font-bold text-[#343045] btn text-xs px-8 py-2 rounded-full mt-4">
                   Comprar Agora
                 </p>
@@ -86,7 +86,7 @@ export default function Checkout () {
                 Optimizer para sempre.
               </p>
               <p className="text-[#c0b7e8] font-bold text-lg">R$127,90</p>
-              <Link href="https://buy.stripe.com/9AQcNi2AW3zZ5YQcMP">
+              <Link href="https://buy.stripe.com/5kA5kQcbw0nN3QIeV2">
                 <p className="btn uppercase font-bold text-[#343045] btn text-xs px-8 py-2 rounded-full mt-4">
                   Comprar Agora
                 </p>

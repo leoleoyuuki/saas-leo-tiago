@@ -26,12 +26,12 @@ export default function Success() {
           <p className="text-white">
             Bem-vindo ao BoostSync Optimizer v1! Atualizações mensais entre os dias 1 e 4, cada chave de ativação é exclusiva para um computador por um mês. Planos mensais disponíveis, além do anual. Suporte via tickets para problemas e sugestões de otimização. Relate bugs ou simplesmente converse conosco abrindo um ticket. Estamos aqui para ajudar e melhorar sua experiência!
           </p>
-          <Link
-            href="/checkout"
+          <a
+            href="/caminho/para/download/leo.txt" download
             className="btn uppercase font-bold text-[#343045] btn text-xs px-8 py-4 rounded-full m-auto"
           >
-            Quero Aproveitar o Preço
-          </Link>
+            FAZER O DOWNLOAD DO APP BOOSTSYNC
+          </a>
         </div>
       </section>
 
