@@ -38,7 +38,7 @@ export default function Checkout () {
                 e suporte incluídos.
               </p>
               <p className="text-[#c0b7e8] font-bold text-lg">R$15,00</p>
-              <Link href="https://buy.stripe.com/eVa14A3F09Yn2MEbII">
+              <Link href="https://buy.stripe.com/8wM7sYgrM1rRgDu5kp">
                 <p className="btn uppercase font-bold text-[#343045] btn text-xs px-8 py-2 rounded-full mt-4">
                   Comprar Agora
                 </p>
