@@ -1,6 +1,6 @@
 
 
-export default function () {
+export default  function Success () {
   return (
     <div>
       <h1>Success</h1>
