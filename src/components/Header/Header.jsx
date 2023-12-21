@@ -26,12 +26,12 @@ export default function Header() {
 
         <nav className="">
           <ul className="flex justify-between ">
-            <Link
-              href="https://discord.gg/ufEvyf5d"
+            <a
+              href="/img/1mes.svg" download
               className="flex items-center px-8 py-4 mr-8 text-xs text-white uppercase border-2 border-white rounded-full font-semibold"
             >
-              CONTATE-NOS
-            </Link>
+              DOWNLOAD
+            </a>
 
             <Link
               href="https://discord.gg/ufEvyf5d"
