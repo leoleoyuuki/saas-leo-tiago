@@ -86,7 +86,7 @@ export default function Checkout () {
                 Optimizer para sempre.
               </p>
               <p className="text-[#c0b7e8] font-bold text-lg">R$127,90</p>
-              <Link href="https://buy.stripe.com/8wMfZu7VggmL2ME28a">
+              <Link href="https://buy.stripe.com/9AQcNi2AW3zZ5YQcMP">
                 <p className="btn uppercase font-bold text-[#343045] btn text-xs px-8 py-2 rounded-full mt-4">
                   Comprar Agora
                 </p>
