@@ -1,4 +1,3 @@
-import React from "react";
 import Link from "next/link";
 import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
 
@@ -52,7 +51,7 @@ export default function Footer() {
             <input
               type="email"
               placeholder="Digite seu e-mail"
-              className="w-full px-4 py-2 border border-white rounded focus:outline-none"
+              className="w-full px-4 py-2 border text-[#443f5b] border-white rounded focus:outline-2"
             />
             <button
               type="submit"
