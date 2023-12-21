@@ -5,12 +5,13 @@ import { loadStripe } from "@stripe/stripe-js";
 
 
 import Image from "next/image";
+import { env } from "../../../next.config";
 
 let stripePromise;
 
 const getStripe = () => {
   if (!stripePromise) {
-    stripePromise = loadStripe("pk_live_51Li2ghLZkqAmFk4bNdFX9VMw3IwGKXHi9TicvKu3lq3fiPa03wYPkIn1faEsHcFhQcrpFgDak6fLBMEM4u6kWRbO00VCYYjSvW");
+    stripePromise = loadStripe(process.env.REACT_APP_STRIPE_KEY);
   }
 
   return stripePromise;

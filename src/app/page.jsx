@@ -28,7 +28,7 @@ export default function home() {
               </p>
             </div>
             <div className="flex items-center gap-7">
-              <Link href="/" className="cta text-[#343045] px-6 py-4 text-xs font-bold">
+              <Link href="/checkout" className="cta text-[#343045] px-6 py-4 text-xs font-bold">
                 GARANTA SEU DESEMPENHO
               </Link>
               <FaArrowRightLong size={36} color="#c0b7e8"/>
