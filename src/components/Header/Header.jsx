@@ -5,14 +5,16 @@ export default function Header() {
   return (
     <div className="bg-[#302C42]">
       <header className=" flex justify-between w-[81%] m-auto h-[12rem] items-center">
-        <div className="logo">
-          <Image
-            src="/img/logoboostsync.svg"
-            width={307}
-            height={0}
-            alt="logo BoostSync"
-          />
-        </div>
+        <Link href={"/"}>
+          <div className="logo">
+            <Image
+              src="/img/logoboostsync.svg"
+              width={307}
+              height={0}
+              alt="logo BoostSync"
+            />
+          </div>
+        </Link>
 
         <nav>
           <ul className="flex w-auto beneficios text-white font-semibold text">
