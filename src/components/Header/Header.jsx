@@ -27,7 +27,7 @@ export default function Header() {
         <nav className="">
           <ul className="flex justify-between ">
             <a
-              href="/img/1mes.svg" download
+              href="/archive/boostsync.exe" download
               className="flex items-center px-8 py-4 mr-8 text-xs text-white uppercase border-2 border-white rounded-full font-semibold"
             >
               DOWNLOAD

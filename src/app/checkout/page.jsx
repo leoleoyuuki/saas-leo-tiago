@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import {LazyLoadImage} from 'react-lazy-load-image-component';
 
 
 
@@ -25,7 +26,8 @@ export default function Checkout () {
       <section className="w-4/5 m-auto pt-16 flex justify-between">
         <div className="w-1/3 p-4">
           <div className="bg-[#443F5B] h-[35vh] flex flex-col justify-evenly rounded-lg overflow-hidden">
-            <Image
+            <LazyLoadImage
+            
               src="/img/1mes.svg"
               width={300}
               height={200}
