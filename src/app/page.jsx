@@ -52,11 +52,8 @@ export default function home() {
             </div>
             <div className="subtitle">
               <p className="text-white w-[54rem] py-16">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Blanditiis harum modi numquam vero assumenda. Adipisci dicta
-                repudiandae non reiciendis voluptates eveniet placeat libero,
-                molestias tenetur iure rem consequuntur aperiam consectetur
-                neque magnam nisi laboriosam nostrum earum?
+              Você já imaginou experimentar seus jogos favoritos sem interrupções, gráficos fluidos e um desempenho impecável? Agora, isso é possível com o BoostSync. Não se contente com uma experiência de jogo comum; eleve o nível com a otimização avançada que o BoostSync proporciona.
+              Para gamers fanáticos ou qualquer pessoa que queira turbinar seu PC para games, BoostSync é a solução ideal.
               </p>
             </div>
             <div className="flex items-center gap-7">
