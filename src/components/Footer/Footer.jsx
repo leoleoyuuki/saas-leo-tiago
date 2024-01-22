@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="w-full lg:w-1/4 mb-8 lg:mb-0">
           <h3 className="text-xl font-bold mb-4">Entre em Contato</h3>
           <p>Email: contato@boostsync.com</p>
-          <p>Telefone: (00) 1234-5678</p>
+          <p>Telefone: (11) 957211546</p>
         </div>
 
         <div className="w-full lg:w-1/4 mb-8 lg:mb-0">

@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import Link from 'next/link';
 
 export default function Success() {
   return (
@@ -27,7 +26,7 @@ export default function Success() {
             Bem-vindo ao BoostSync Optimizer v1! Atualizações mensais entre os dias 1 e 4, cada chave de ativação é exclusiva para um computador por um mês. Planos mensais disponíveis, além do anual. Suporte via tickets para problemas e sugestões de otimização. Relate bugs ou simplesmente converse conosco abrindo um ticket. Estamos aqui para ajudar e melhorar sua experiência!
           </p>
           <a
-            href="/img/1mes.svg" download
+            href="/archive/boostsync.exe" download
             className="btn uppercase font-bold text-[#343045] btn text-xs px-8 py-4 rounded-full m-auto"
           >
             FAZER O DOWNLOAD DO APP BOOSTSYNC
