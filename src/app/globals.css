@@ -8,6 +8,26 @@
   --background-end-rgb: 255, 255, 255;
 }
 
+/* Estilo para a scrollbar */
+::-webkit-scrollbar {
+  width: 8px; /* Largura da scrollbar */
+}
+
+/* Estilo para o botão de rolagem */
+::-webkit-scrollbar-thumb {
+  background-color: #54308b; /* Cor do botão de rolagem */
+  border-radius: 6px; /* Raio da borda para torná-lo arredondado */
+}
+
+/* Estilo para a trilha (background) da scrollbar */
+::-webkit-scrollbar-track {
+  background-color: rgb(48, 44, 66); /* Cor de fundo da trilha */
+}
+
+/* Estilo para os cantos da scrollbar */
+::-webkit-scrollbar-corner {
+  background-color: #8176af; /* Cor de fundo dos cantos */
+}
 
 
 body {
