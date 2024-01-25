@@ -38,6 +38,8 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+
+    overflow-x: hidden;
 }
 
 @layer components {
@@ -84,4 +86,42 @@ body {
     );
     box-shadow: 0px 4px 4px 0px rgba(192, 183, 232, 0.01);
   }
+
+
+  @media (max-width: 768px) {
+    header{
+      width: 90vw;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+    header .logo{
+      transform: scale(0.7);
+    }
+    header .beneficios,header .download{
+      display: none;
+    }
+
+
+    .leftsec1{
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .leftsec1 h1{
+      font-size: 1.8rem;
+    }
+
+    .leftsec1 .seta{
+      display: none;
+    }
+
+    .leftsec1 .subtitle{
+      display: none;
+    }
+    .leftsec1 .cta{
+      margin-top: 2rem;
+    }
+  }
+
 }
