@@ -84,7 +84,7 @@ export default function Home() {
       {/* Seção 2 */}
       <section className="pt-14 md:pt-28">
         <div className=" sec2 w-5/6 m-auto py-7 flex items-center md:flex-row justify-around md:gap-10 text-white rounded-full md:py-12 md:w-4/5">
-          <div class="flex flex-row-reverse justify-center gap-4 items-center md:flex md:items-center md:gap-4">
+          <div class="flex flex-row-reverse justify-center gap-1 items-center md:flex md:items-center md:gap-4">
             <div class=" md:mr-4 md:visible">
               <FaDiscord class="text-white" size={40} />
             </div>
