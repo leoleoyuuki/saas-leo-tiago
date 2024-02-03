@@ -3,8 +3,8 @@
 
   export default function Header() {
     return (
-      <div className="bg-[#302C42]">
-        <header className="h-[11rem] items-center md:justify-between md:m-auto  md:w-4/5 md:flex">
+      <div className="bg-[#26242f]">
+        <header className="h-[8.5rem] items-center md:justify-between md:m-auto  md:w-4/5 md:flex md:h-[11rem]">
           
             <Link className="logo" href={"/"}>
               <div >

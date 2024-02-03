@@ -3,7 +3,7 @@ import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#302C42] text-white py-12 border-t-2 border-[#443F5B]">
+    <footer className="bg-[#26242f] text-white py-12 border-t-2 border-[#443F5B]">
       <div className="w-4/5 m-auto flex flex-wrap justify-between">
         <div className="w-full lg:w-1/4 mb-8 lg:mb-0">
           <h3 className="text-xl font-bold mb-4">Entre em Contato</h3>

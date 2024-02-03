@@ -37,7 +37,7 @@ export default function Home() {
   ];
 
   return (
-    <div className="bg-[#302C42]">
+    <div className="bg-[#26242f]">
       {/* Seção 1 */}
       <section className="w-4/5 m-auto">
         <div className="container-sec1 flex flex-col-reverse items-center md:flex-row justify-between">
@@ -72,9 +72,9 @@ export default function Home() {
             </div>
           </div>
           <Image
-            className="pt-0 md:pt-[4.6rem] "
-            src="/img/imgsec1.svg"
-            width={424}
+            className=""
+            src="/img/3dillustration.svg"
+            width={484}
             height={0}
             alt="GAMER"
           />
