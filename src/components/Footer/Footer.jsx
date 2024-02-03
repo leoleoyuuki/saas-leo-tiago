@@ -64,7 +64,7 @@ export default function Footer() {
       </div>
 
       <div className="mt-8 text-center">
-        <p>&copy; 2023 BoostSync. Todos os direitos reservados.</p>
+        <p>&copy; 2024 BoostSync. Todos os direitos reservados.</p>
       </div>
     </footer>
   );

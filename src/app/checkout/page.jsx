@@ -10,7 +10,7 @@ export default function Checkout () {
 
   return (
     <>
-      <div className="bg-[#302C42] pb-10">
+      <div className="bg-[#26242f] pb-10">
       <section className="w-4/5 m-auto">
         <div className="container-sec1 flex justify-between">
           <div className="leftsec1">
@@ -23,8 +23,8 @@ export default function Checkout () {
         </div>
       </section>
 
-      <section className="w-4/5 m-auto pt-16 flex justify-between">
-        <div className="w-1/3 p-4">
+      <section className="w-4/5 m-auto pt-16 flex flex-col justify-between md:flex-row">
+        <div className="w-1/1 p-4 md:1/3">
           <div className="bg-[#443F5B] h-[35vh] flex flex-col justify-evenly rounded-lg overflow-hidden">
             <LazyLoadImage
             
@@ -49,7 +49,7 @@ export default function Checkout () {
           </div>
         </div>
 
-        <div className="w-1/3 p-4">
+        <div className="w-1/1 p-4 md:1/3">
           <div className="bg-[#443F5B] h-[35vh] flex flex-col justify-evenly rounded-lg overflow-hidden">
             <Image
               src="/img/6meses.svg"
@@ -73,7 +73,7 @@ export default function Checkout () {
           </div>
         </div>
 
-        <div className="w-1/3 p-4">
+        <div className="w-1/1 p-4 md:1/3">
           <div className="bg-[#443F5B] h-[35vh] flex flex-col justify-evenly rounded-lg overflow-hidden">
             <Image
               src="/img/vitalicio.svg"

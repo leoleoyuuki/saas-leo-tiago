@@ -202,7 +202,7 @@ export default function Home() {
         </div>
       </section>
 
-      <div className="bg-[#302C42] flex  justify-center mt-8 p-8 rounded-lg shadow-lg relative">
+      <div className="bg-[#26242f] flex  justify-center mt-8 p-8 rounded-lg shadow-lg relative">
         <div className="absolute top-0 left-0 right-0 h-4 bg-gradient-to-r from-[#443F5B] to-[#8B86B5]"></div>
         <div className="border-4 border-[#6B68A1] rounded-lg overflow-hidden relative">
           <div className="bg-[#443F5B] p-4">
