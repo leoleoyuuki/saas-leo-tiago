@@ -84,14 +84,14 @@ export default function Home() {
       {/* Seção 2 */}
       <section className="pt-14 md:pt-28">
         <div className=" sec2 w-5/6 m-auto py-7 flex items-center md:flex-row justify-around md:gap-10 text-white rounded-full md:py-12 md:w-4/5">
-          <div class="flex flex-row justify-center items-center md:flex md:items-center md:gap-4">
+          <div class="flex sec2cta flex-row justify-center items-center md:flex md:items-center md:gap-4">
             <div class=" md:mr-4 md:visible">
               <FaDiscord class="text-white" size={40} />
             </div>
 
-            <div class="text-white ">
+            <div class="text-white">
               <h1 class="font-bold text-lg md:text-xl">Conheça o Discord</h1>
-              <p class="font-light text-sm md:text-base">
+              <p class="font-light text-sm md:text-base md:w-auto">
                 Entre no nosso servidor para mais informações
               </p>
             </div>
@@ -202,7 +202,7 @@ export default function Home() {
         </div>
       </section>
 
-      <div className="bg-[#302C42] flex justify-center mt-8 p-8 rounded-lg shadow-lg relative">
+      <div className="bg-[#302C42] flex  justify-center mt-8 p-8 rounded-lg shadow-lg relative">
         <div className="absolute top-0 left-0 right-0 h-4 bg-gradient-to-r from-[#443F5B] to-[#8B86B5]"></div>
         <div className="border-4 border-[#6B68A1] rounded-lg overflow-hidden relative">
           <div className="bg-[#443F5B] p-4">
@@ -212,7 +212,7 @@ export default function Home() {
           </div>
           <div className="overflow-scroll">
             <div
-              className="flex transition-transform duration-300 ease-in-out"
+              className="flex text-center flex-col transition-transform duration-300 ease-in-out md:flex-row"
               style={{ transform: "translateX(0%)" }}
             >
               {benefits.map((benefit) => (

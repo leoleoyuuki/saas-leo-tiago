@@ -37,7 +37,7 @@
 
               <Link
                 href="https://discord.gg/ufEvyf5d"
-                className="flex items-center uppercase text-[#343045] btn text-xs px-9 py-4 rounded-full font-semibold"
+                className="flex items-center uppercase text-[#343045] btn text-xs px-9 py-4 rounded-full disc font-semibold"
               >
                 JOIN DISCORD
               </Link>

@@ -96,10 +96,14 @@ body {
       justify-content: space-around;
     }
     header .logo{
-      transform: scale(0.7);
+      transform: scale(0.6);
     }
     header .beneficios,header .download{
       display: none;
+    }
+    header .disc{
+      font-size: 0.6rem;
+      padding: 0.8rem 1.6rem
     }
 
 
@@ -121,6 +125,10 @@ body {
     }
     .leftsec1 .cta{
       margin-top: 2rem;
+    }
+
+    .sec2cta{
+      gap: 1rem;
     }
   }
 
