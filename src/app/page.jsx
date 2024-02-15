@@ -133,12 +133,10 @@ export default function Home() {
         </div>
         <div className="w-full md:w-2/4 mt-8 md:mt-0">
           <p className="text-white text-base md:text-lg font-light">
-            <p className="text-white text-base font-light">
               Bem-vindo ao BoostSync Optimizer v1! Atualizações mensais entre os
               dias 1 e 4, cada chave de ativação é exclusiva para um computador
               por um mês. Planos mensais disponíveis, além do anual. Suporte via
               tickets para problemas e sugestões de otimização.
-            </p>
           </p>
         </div>
       </section>
@@ -153,7 +151,6 @@ export default function Home() {
         />
         <div className="w-full md:w-5/12 flex flex-col gap-10">
           <p className="text-white text-base md:text-lg">
-          <p className="text-white ">
               Bem-vindo ao BoostSync Optimizer v1! Atualizações mensais entre os
               dias 1 e 4, cada chave de ativação é exclusiva para um computador
               por um mês. Planos mensais disponíveis, além do anual. Suporte via
@@ -162,7 +159,6 @@ export default function Home() {
               ajudar e melhorar sua experiência!Bem-vindo ao BoostSync Optimizer
               v1! Atualizações mensais entre os dias 1 e 4, cada chave de
               ativação é exclusiva para um computador por um mês.{" "}
-            </p>
           </p>
           <Link
             href="/checkout"
@@ -190,14 +186,12 @@ export default function Home() {
         />
         <div className="w-full md:w-6/12 mt-8 md:mt-0">
           <p className="text-white text-base md:text-lg">
-          <p className="text-white">
               Bem-vindo ao BoostSync Optimizer v1! Atualizações mensais entre os
               dias 1 e 4, cada chave de ativação é exclusiva para um computador
               por um mês. Planos mensais disponíveis, além do anual.Bem-vindo ao
               BoostSync Optimizer v1! Atualizações mensais entre os dias 1 e 4,
               cada chave de ativação é exclusiva para um computador por um mês.
               Planos mensais disponíveis
-            </p>
           </p>
         </div>
       </section>
