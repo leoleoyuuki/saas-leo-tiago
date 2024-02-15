@@ -84,29 +84,29 @@ export default function Home() {
       {/* Seção 2 */}
       <section className="pt-7 md:pt-20">
         <div className=" sec2 w-5/6 m-auto py-7 flex items-center md:flex-row justify-around md:gap-10 text-white rounded-full md:py-12 md:w-4/5">
-          <div class="flex sec2cta flex-row justify-center items-center md:flex md:items-center md:gap-4">
-            <div class=" md:mr-4 md:visible">
-              <FaDiscord class="text-white" size={40} />
+          <div className="flex sec2cta flex-row justify-center items-center md:flex md:items-center md:gap-4">
+            <div className=" md:mr-4 md:visible">
+              <FaDiscord className="text-white" size={40} />
             </div>
 
-            <div class="text-white">
-              <h1 class="font-bold text-lg md:text-xl">Conheça o Discord</h1>
-              <p class="font-light text-sm md:text-base md:w-auto">
+            <div className="text-white">
+              <h1 className="font-bold text-lg md:text-xl">Conheça o Discord</h1>
+              <p className="font-light text-sm md:text-base md:w-auto">
                 Entre no nosso servidor para mais informações
               </p>
             </div>
           </div>
 
-          <div class="text-[2.4rem] font-light hidden md:block">|</div>
+          <div className="text-[2.4rem] font-light hidden md:block">|</div>
 
-          <div class="hidden md:flex md:items-center md:gap-4">
-            <div class="sm:invisible md:mr-4 md:visible">
-              <IoIosMail class="text-white" size={40} />
+          <div className="hidden md:flex md:items-center md:gap-4">
+            <div className="sm:invisible md:mr-4 md:visible">
+              <IoIosMail className="text-white" size={40} />
             </div>
 
-            <div class="text-white">
-              <h1 class="font-bold text-lg md:text-xl">Envie-nos um Email</h1>
-              <p class="font-light text-sm md:text-base">
+            <div className="text-white">
+              <h1 className="font-bold text-lg md:text-xl">Envie-nos um Email</h1>
+              <p className="font-light text-sm md:text-base">
                 Caso prefira nos chamar pelo Email é só chamar
               </p>
             </div>
