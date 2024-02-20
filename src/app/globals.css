@@ -132,4 +132,11 @@ body {
     }
   }
 
+
+  @media (max-width: 1274px){
+    header .beneficios{
+      display: none;
+    }
+  }
+
 }
