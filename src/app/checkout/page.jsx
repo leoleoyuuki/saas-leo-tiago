@@ -8,6 +8,10 @@ import {LazyLoadImage} from 'react-lazy-load-image-component';
 
 export default function Checkout () {
 
+ const handleCheckout = () => {
+  window.location.href = "https://pay.kiwify.com.br/KzJkUxA";
+ }
+
   return (
     <>
       <div className="bg-[#26242f] pb-10">
@@ -16,86 +20,23 @@ export default function Checkout () {
           <div className="leftsec1">
             <div className="texts text-4xl font-semibold pt-10">
               <h1>
-                <span className="t1">Escolha</span> a Sua Licença
+                <span className="t1">Adquira</span> a Sua Licença Abaixo
               </h1>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="w-4/5 m-auto pt-16 flex flex-col justify-between md:flex-row">
-        <div className="w-1/1 p-4 md:1/3">
-          <div className="bg-[#443F5B] h-[35vh] flex flex-col justify-evenly rounded-lg overflow-hidden">
+      <section className="w-4/5 m-auto pt-16 flex items-center justify-center md:flex-row">
+        <div className="cursor-pointer hover:scale-105 hover:border-2 rounded-2xl border-purple-500" onClick={handleCheckout}>
             <LazyLoadImage
-            
-              src="/img/1mes.svg"
-              width={300}
+              className="rounded-2xl"
+              src="/img/checkout.jpg"
+              width={1100}
               height={200}
               alt="Licença de 1 Mês"
             />
-            <div className="p-4">
-              <h3 className="text-xl text-gray-500 font-bold">Licença de 1 Mês</h3>
-              <p className="text-gray-100">
-                Desfrute do BoostSync Optimizer por 1 mês. Atualizações mensais
-                e suporte incluídos.
-              </p>
-              <p className="text-[#c0b7e8] font-bold text-lg">R$15,00</p>
-              <Link href="https://buy.stripe.com/7sI8x25N86MbdridQW">
-                <p className="btn uppercase font-bold text-[#343045] btn text-xs px-8 py-2 rounded-full mt-4">
-                  Comprar Agora
-                </p>
-              </Link>
-            </div>
-          </div>
-        </div>
-
-        <div className="w-1/1 p-4 md:1/3">
-          <div className="bg-[#443F5B] h-[35vh] flex flex-col justify-evenly rounded-lg overflow-hidden">
-            <Image
-              src="/img/6meses.svg"
-              width={300}
-              height={200}
-              alt="Licença de 6 Meses"
-            />
-            <div className="p-4">
-              <h3 className="text-xl text-gray-500 font-bold">Licença de 6 Meses</h3>
-              <p className="text-gray-100">
-                Aproveite o BoostSync Optimizer por 6 meses. Mais economia e
-                benefícios.
-              </p>
-              <p className="text-[#c0b7e8] font-bold text-lg">R$50,00</p>
-              <Link href="https://buy.stripe.com/3cs14A1wS0nN3QI9AH">
-                <p className="btn uppercase font-bold text-[#343045] btn text-xs px-8 py-2 rounded-full mt-4">
-                  Comprar Agora
-                </p>
-              </Link>
-            </div>
-          </div>
-        </div>
-
-        <div className="w-1/1 p-4 md:1/3">
-          <div className="bg-[#443F5B] h-[35vh] flex flex-col justify-evenly rounded-lg overflow-hidden">
-            <Image
-              src="/img/vitalicio.svg"
-              width={300}
-              height={200}
-              alt="Licença Vitalícia"
-            />
-            <div className="p-4">
-              <h3 className="text-xl text-gray-500 font-bold">Licença Vitalícia</h3>
-              <p className="text-gray-100">
-                Adquira a licença vitalícia para desfrutar do BoostSync
-                Optimizer para sempre.
-              </p>
-              <p className="text-[#c0b7e8] font-bold text-lg">R$127,90</p>
-              <Link href="https://buy.stripe.com/5kA5kQcbw0nN3QIeV2">
-                <p className="btn uppercase font-bold text-[#343045] btn text-xs px-8 py-2 rounded-full mt-4">
-                  Comprar Agora
-                </p>
-              </Link>
-            </div>
-          </div>
-        </div>
+        </div>    
       </section>
     </div>
       

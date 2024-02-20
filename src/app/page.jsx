@@ -51,7 +51,7 @@ export default function Home() {
               </h1>
             </div>
             <div className="subtitle">
-              <p className="text-white w-[54rem] py-8 md:py-16">
+              <p className="text-white w-4/6 py-8 md:py-16">
                 Você já imaginou experimentar seus jogos favoritos sem
                 interrupções, gráficos fluidos e um desempenho impecável? Agora,
                 isso é possível com o BoostSync. Não se contente com uma
